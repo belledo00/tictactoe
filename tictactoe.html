@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <script src="tictactoe.js"></script>
+    <link rel="stylesheet" href="tictactoe.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+  <div class="container">
+    <h1 class="title">Tic-Tac-Toe</h1>
+    <div class="resultText" id="result">Who will be the Winner?</div>
+    <div class="statusText" id="status">Player X, make a move.</div>
+
+  <form id="f1">
+    <input class="inputBoxStyle" type="text" id="s1" size="1" onclick="placeMarker1();" readonly/>
+    <input class="inputBoxStyle" type="text" id="s2" size="1" onclick="placeMarker2();" readonly/>
+    <input class="inputBoxStyle" type="text" id="s3" size="1" onclick="placeMarker3();" readonly/>
+    <br />
+    <input class="inputBoxStyle" type="text" id="s4" size="1" onclick="placeMarker4();" readonly/>
+    <input class="inputBoxStyle" type="text" id="s5" size="1" onclick="placeMarker5();" readonly/>
+    <input class="inputBoxStyle" type="text" id="s6" size="1" onclick="placeMarker6();" readonly/>
+    <br />
+    <input class="inputBoxStyle" type="text" id="s7" size="1" onclick="placeMarker7();" readonly/>
+    <input class="inputBoxStyle" type="text" id="s8" size="1" onclick="placeMarker8();" readonly/>
+    <input class="inputBoxStyle" type="text" id="s9" size="1" onclick="placeMarker9();" readonly/>
+    <br />
+  </form>
+
+  <div class="buttons">
+    <button class="storeBtn" onclick="storeMove();">AIs Turn</button>
+    <button class="resetBtn" onclick="resetBoard();">Reset</button>
+  </div>
+
+</div>
+
+
+  </body>
+</html>

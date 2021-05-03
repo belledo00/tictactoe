@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FFDCDA;
+  display: flex;
+  font-family: Overpass Mono, monospace;
+  font-style: normal;
+  font-weight: bold;
+  justify-content: center;
+}
+
+
+input {
+  height:120px;
+  width: 120px;
+  background: #FFFB99;
+  cursor: pointer;
+  margin: 3px;
+  border-radius: 8px;
+  border:none;
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+}
+
+button {
+  font-family: Overpass Mono, monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  margin-top: 24px;
+}
+
+button:hover{
+  color: white;
+}
+
+.buttons {
+  text-align: center;
+
+}
+
+.resetBtn {
+  background: #94F01E;
+  border: none;
+  border-radius: 8px;
+  width: 155px;
+  height: 43px;
+  top: 13px;
+}
+
+.storeBtn {
+  background: #84FAF3;
+  border: none;
+  border-radius: 8px;
+  width: 155px;
+  height: 43px;
+  top: 13px;
+}
+
+
+.container {
+  background: white;
+  border-radius: 15px;
+  margin-top:115px;
+  margin-bottom:116px;
+  width: 467.08px;
+  height: 669px;
+}
+
+.title {
+  font-size: 52px;
+  color: #FF0000;
+  text-align: center;
+  margin-top: 19px;
+}
+
+
+form {
+  text-align: center;
+   margin-top: 15px;
+}
+
+input[type="text"]:hover {
+  background:#F9F7CB;
+}
+
+.statusText{
+  text-align: center;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.resultText{
+  text-align: center;
+  margin-top: 12px;
+  font-size: 22px;
+  color:#C5005E;
+}
